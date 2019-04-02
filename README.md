@@ -6,6 +6,8 @@ It is very definitely a serious project.
 ## Usage ##
 
 ```cpp
+#include <padleft.hpp>
+
 std::string hello = "Hello world"
 
 auto hello_with_spaces = pl::pad_left(hello, 3);
